@@ -100,6 +100,7 @@ openwrt-x86-64-generic.manifest
 openwrt-x86-64-generic-squashfs-rootfs.img.gz
 10.02-Official-master-6.6.53-x86-64-generic-rootfs.tar.gz
 ipk.tar.gz
+10.02-Immortalwrt-master-6.6.53-x86-64-generic-squashfs-combined.img
 EOF
 
 # 在线更新时，删除不想保留固件的某个文件，在EOF跟EOF之间加入删除代码，记住这里对应的是固件的文件路径，比如： rm -rf /etc/config/luci
